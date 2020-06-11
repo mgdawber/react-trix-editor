@@ -21,7 +21,7 @@
     "react": "15.x"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
+    "babel-eslint": "^10.1.0",
     "eslint": "^3.10.2",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-react": "^6.7.1",
