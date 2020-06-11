@@ -26,13 +26,12 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-react": "^6.7.1",
     "expect": "^1.20.2",
-    "nwb": "0.12.x",
+    "nwb": "^0.25.2",
     "react": "^15.4.0",
     "react-dom": "^15.4.0"
   },
   "author": "AndrewGHC",
   "license": "MIT",
-  "repository": "",
   "repository": {
     "type": "git",
     "url": "https://github.com/AndrewGHC/react-trix-editor"
