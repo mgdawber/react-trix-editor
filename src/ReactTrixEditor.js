@@ -1,17 +1,8 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import 'trix';
+import PropTypes from 'prop-types';
 
 class ReactTrixEditor extends Component {
-
-  static propTypes = {
-    onChange: PropTypes.func.isRequired,
-    onEditor: PropTypes.func,
-    autofocus: PropTypes.bool,
-    input: PropTypes.string,
-    placeholder: PropTypes.string,
-    initialValue: PropTypes.string
-  }
-
   static defaultProps = {
     autofocus: false,
     input: 'react-trix-editor',
@@ -57,5 +48,14 @@ class ReactTrixEditor extends Component {
     );
   }
 }
+
+ReactTrixEditor.propTypes = {
+  onChange: PropTypes.func.isRequired,
+  onEditor: PropTypes.func,
+  autofocus: PropTypes.bool,
+  input: PropTypes.string,
+  placeholder: PropTypes.string,
+  initialValue: PropTypes.string
+};
 
 export default ReactTrixEditor;
