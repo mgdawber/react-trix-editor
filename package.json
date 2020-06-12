@@ -15,7 +15,7 @@
     "url": "https://github.com/mgdawber/react-trix-editor/issues"
   },
   "dependencies": {
-    "trix": "^0.9.10"
+    "trix": "^1.2.3"
   },
   "peerDependencies": {
     "react": "16.x"
